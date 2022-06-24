@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    box-sizing:  border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.nav{
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    margin-right: 44px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #242A45;
+}
+
+.nav-item:last-child{
+    margin-right: 50px;
+}
+
+.login-link{
+    padding: 12px 32px;
+    font-weight: 500;
+    background-color:  #FA5959;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero start */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-descr{
+    width: 540px;
+    flex-shrink: 0;
+    padding-top: 30px;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text{
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+.hero-descr-link-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.hero-descr-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.descr-link-blue{
+    color: #fff;
+    background-color:#5267DF;
+}
+
+.descr-link-gray{
+    color:#242A45;
+    background-color: #F7F7F7;
+    margin-left: 16px;
+}
+
+/* Features start */
+
+.features{
+    padding-top: 60px;
+}
+
+.subtitle-wrapper{
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subtitle-text{
+    color: #242A45;
+    margin-bottom: 72px;
+}
+
+.features-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 75px;
+    padding: 0;
+}
+
+.features-item{
+    color: #242A45;
+}
+
+.features-info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.features-info-end{
+    width: 445px;
+}
+
+.features-info-subtitle{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.features-info-text{
+    margin-bottom: 32px;
+}
+
+.more-info-link{
+    padding: 10px 24px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #5267DF;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Extension list */
+
+.extension-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.extension-item{
+    width: 280px;
+    margin-right: 34px;
+    padding: 49px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+    border-radius: 15px;
+}
+
+.extension-item:nth-child(2){
+    margin-top: 50px;
+}
+.extension-item:nth-child(3){
+    margin-top: 100px;
+    margin-right: 0;
+}
+
+.extension-name{
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.extension-logo{
+    margin-bottom: 32px;
+}
+
+.extension-version{
+    margin: 0;
+    margin-bottom: 32px;
+    color:#242A45;
+}
+
+.dotted-img{
+    margin-bottom: 24px;
+}
+
+.download-link{
+    padding: 10px 34px;
+    background-color: #5267DF;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
